@@ -1,0 +1,78 @@
+/* box-sizing */
+*{box-sizing: border-box;}
+/* selector element: pengaturan halaman*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ecefedb6;
+}
+/* selector class: kotak */
+.kotak {
+    max-width: 800px;
+    margin: 32px auto;
+    padding: 40px;
+    background-color: #dff1e1;
+    box-shadow: 0 0 10px rgba(69, 17, 181, 0.1);
+}
+/* selector id: header profil */
+#profil-header {
+    text-align: center;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+/* selector group:judul heading dalam header profil */
+#profil-header h1, 
+#profil-header h2 {
+    color: #333;
+}
+/* selector class: jurusan */
+.jurusan {
+    color: #504e4e;
+    text-align: center;
+    font-weight: bold;
+    text-transform:capitalize;
+}
+/* selector class: paragraf:menggunakan type text justify */
+p {
+    line-height: 1.6;
+    text-align: justify;
+    
+}
+
+/* selector class: tombol */
+.contact-btn-wrapper {
+    text-align: center;
+    margin-top: 25px;
+}
+.btn-contact {
+    display: inline-block;
+    background-color: #2563eb; /* Warna biru */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-contact:hover {
+    background-color: #1d4ed8;
+}
+/* selector turunan: keahlian */
+.keahlian {
+    margin-top: 20px;
+    list-style-type: disc;
+    margin-left: 2px;
+}
+
+#keahlian li {
+  display: inline-block;
+  margin:0 6px 0 8px;
+  padding: 4px 14px;
+  color:aliceblue;
+  background-color: #2563eb;
+  border-radius: 4px;
+  border: 1px solid #2563eb;
+  text-transform: capitalize;
+  font-size: 16px;
+}
